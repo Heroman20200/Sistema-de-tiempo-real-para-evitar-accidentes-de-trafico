@@ -116,10 +116,10 @@ package body Actuadores is
                      Luz_Encendida := False;
                   end if;
                end if;
-            else 
+            else
                if Luz_Encendida then
-                     Light (Off);
-                     Luz_Encendida := False;
+                  Light (Off);
+                  Luz_Encendida := False;
                end if;
             end if;
 
