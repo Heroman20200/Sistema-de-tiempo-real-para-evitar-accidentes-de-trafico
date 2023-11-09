@@ -1,1 +1,7 @@
-git rm *.o *.nm *.ali b~*.* *.s *~ main *.map
+*.o 
+*.nm 
+*.ali 
+b~*.* 
+*.s 
+*~ main 
+*.map
