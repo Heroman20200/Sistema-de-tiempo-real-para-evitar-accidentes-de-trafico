@@ -116,6 +116,11 @@ package body Actuadores is
                      Luz_Encendida := False;
                   end if;
                end if;
+            else 
+               if Luz_Encendida then
+                     Light (Off);
+                     Luz_Encendida := False;
+               end if;
             end if;
 
             if Beeping then
