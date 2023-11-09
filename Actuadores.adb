@@ -49,7 +49,7 @@ package body Actuadores is
       Velocidad            : Speed_Samples_Type;
       Intensity            : Volume;
       Beeping              : Boolean;
-      Cabeza               : Boolean;
+      Cabeza_Inclinada              : Boolean;
       Distancia_Insegura   : Boolean;
       Distancia_Imprudente : Boolean;
       Distancia_Peligrosa  : Boolean;
@@ -64,12 +64,12 @@ package body Actuadores is
             Starting_Notice ("Riesgos");
 
             Velocidad            := Medidas.Get_Velocidad;
-            Cabeza               := Sintomas.Get_Cabeza;
+            Cabeza_Inclinada              := Sintomas.Get_Cabeza;
             Distancia_Insegura   := Sintomas.Get_Distancia_Insegura;
             Distancia_Imprudente := Sintomas.Get_Distancia_Imprudente;
             Distancia_Peligrosa  := Sintomas.Get_Distancia_Peligrosa;
 
-            if Sintomas.Get_Volantazo and not Cabeza and
+            if Sintomas.Get_Volantazo and not Cabeza_Inclinada and
               not Distancia_Insegura and not Distancia_Imprudente and
               not Distancia_Peligrosa
             then
@@ -77,7 +77,7 @@ package body Actuadores is
                Beeping   := True;
             end if;
 
-            if Cabeza then
+            if Cabeza_Inclinada then
                if Velocidad < 70 then
                   Intensity := Max (Beeping, Intensity, 2);
                   Beeping   := True;

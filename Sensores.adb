@@ -42,7 +42,6 @@ package body Sensores is
          if (PosicionCabeza (y) > 30 or PosicionCabeza (y) < -30) then
             if (Inclinado_Y) then
                if (not (Sintoma_Cabeza)) then
-                  Reading_Steering (Volante_actual);
                   if
                     ((PosicionCabeza (y) > 30 and
                       (Volante_actual <= Volante_anterior)) or
@@ -68,8 +67,7 @@ package body Sensores is
             Sintoma_Cabeza := False;
          end if;
 
-         Volante_anterior := Volante_actual;
-         -- Retraso para la siguiente lectura
+         Volante_anterior := Volante_actual; -- Retraso para la siguiente lectura
 
          Finishing_Notice ("Cabeza");
          delay until Retraso;
