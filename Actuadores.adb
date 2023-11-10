@@ -49,7 +49,7 @@ package body Actuadores is
       Velocidad            : Speed_Samples_Type;
       Intensity            : Volume;
       Beeping              : Boolean;
-      Cabeza_Inclinada              : Boolean;
+      Cabeza_Inclinada     : Boolean;
       Distancia_Insegura   : Boolean;
       Distancia_Imprudente : Boolean;
       Distancia_Peligrosa  : Boolean;
@@ -64,7 +64,7 @@ package body Actuadores is
             Starting_Notice ("Riesgos");
 
             Velocidad            := Medidas.Get_Velocidad;
-            Cabeza_Inclinada              := Sintomas.Get_Cabeza;
+            Cabeza_Inclinada     := Sintomas.Get_Cabeza;
             Distancia_Insegura   := Sintomas.Get_Distancia_Insegura;
             Distancia_Imprudente := Sintomas.Get_Distancia_Imprudente;
             Distancia_Peligrosa  := Sintomas.Get_Distancia_Peligrosa;

@@ -1,0 +1,871 @@
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 222464 bytes
+section: .data at 0x2036500, size 11852 bytes
+tsim> resuming at 0x02000000
+
+[ 0.005568800] >>> Modo
+[ 0.017825700] >>> Cabeza
+[ 0.034164900] --- Cabeza
+[ 0.047445900] >>> Riesgos
+[ 0.061270400] --- Riesgos
+[ 0.075094100] >>> Distancia
+[ 0.097985800] --- Distancia
+[ 0.112802600] >>> Volante
+[ 0.128076900] --- Volante
+[ 0.141870000] >>
+[ 0.151086200] >>> Riesgos
+[ 0.164910100] --- Riesgos> Display
+[ 0.183342500] ............# Distance:  5
+[ 0.207474500] ............# Speed:  90
+Distancia peligrosa!!!
+
+[ 0.241769600] --- Display
+[ 0.255593600] >>> Programa Principal
+[ 0.275049200] --- Programa Principal
+[ 0.300477600] >>> Riesgos
+[ 0.314271200] --- Riesgos
+[ 0.328094800] >>> Distancia
+[ 0.351173700] --- Distancia
+[ 0.365990900] >>> Volante
+[ 0.381264600] --- Volante
+[ 0.400384600] >>> Cabeza
+[ 0.416770600] --- Cabeza
+[ 0.450456800] >>> Riesgos
+[ 0.464249900] !!!! Brake activated !!!!
+[ 0.485893200] ............%
+[ 0.501003700] --- Modo
+[ 0.513260400] >>> ModoBEEEEEEEEEEP 5
+[ 0.533291800] --- Riesgos
+[ 0.600467500] >>> Riesgos
+[ 0.614261100] !!!! Brake activated !!!!
+[ 0.635903600] ............%BEEEEEEEEEEP 5
+[ 0.658463400] --- Riesgos
+[ 0.672256400] >>> Distancia
+[ 0.695147600] --- Distancia
+[ 0.709964500] >>> Volante
+[ 0.725239700] --- Volante
+[ 0.750456800] >>> Riesgos
+[ 0.764250200] !!!! Brake activated !!!!
+[ 0.785892900] ............%
+[ 0.800709900] >>> Cabeza
+[ 0.817053900] --- CabezaBEEEEEEEEEEP 5
+[ 0.838077200] --- Riesgos
+[ 0.900391500] >>> Riesgos
+[ 0.914185000] !!!! Brake activated !!!!
+[ 0.935827800] ............%BEEEEEEEEEEP 5
+[ 0.958388100] --- Riesgos
+[ 0.972181700] >>> Distancia
+[ 0.995075
+[ 1.001011800] --- Modo
+[ 1.013269000] >>> Modo800] --- Distancia
+[ 1.034773000] >>> Display
+[ 1
+[ 1.050644800] >>> Riesgos
+[ 1.064469100] !!!! Brake activated !!!!
+[ 1.086112100] ............%BEEEEEEEEEEP 5
+[ 1.108671900] --- Riesgos
+[ 1.122465500] >>> Volante
+[ 1.137740400] --- Volante.048597100] ............# Distance:  5
+[ 1.173617100] ............# Speed:  90
+..........
+[ 1.200955200] >>> Cabeza
+[ 1.217299900] --- Cabeza
+[ 1.230581500] >>> Riesgos
+[ 1.244404800] !!!! Brake activated !!!!
+[ 1.266048100] ............%BEEEEEEEEEEP 5
+[ 1.288608200] --- Riesgos
+[ 1.302401500] >>> Distancia
+[ 1.325295300] --- Distancia..#¡Cuidado, tienes 
+[ 1.350863900] >>> Riesgos
+[ 1.364688300] !!!! Brake activated !!!!
+[ 1.386331300] ............%BEEEEEEEEEEP 5
+[ 1.408891000] --- Riesgos
+[ 1.422683800] >>> Volante
+[ 1.437959800] --- Volantela cabeza inclinada!
+
+Distancia peligrosa!!!
+
+[ 1.474792400] --- Display
+[ 1.500467500] >>> Riesgos
+[ 1.514260700] !!!! Brake activated !!!!
+[ 1.535904100] ............%BEEEEEEEEEEP 5
+[ 1.558463600] --- Riesgos
+[ 1.572256800] >>> Distancia
+[ 1.595152
+[ 1.600752800] >>> Cabeza
+[ 1.617098200] --- Cabeza200] --- Distancia
+[ 1.650457000] >>> Riesgos
+[ 1.664250200] !!!! Brake activated !!!!
+[ 1.685893900] ............%
+[ 1.701004000] --- Modo
+[ 1.713260800] >>> ModoBEEEEEEEEEEP 5
+[ 1.733291400] --- Riesgos
+[ 1.750384800] >>> Volante
+[ 1.765629700] --- Volante
+[ 1.800391000] >>> Riesgos
+[ 1.814184200] !!!! Brake activated !!!!
+[ 1.835827200] ............%BEEEEEEEEEEP 5
+[ 1.858387000] --- Riesgos
+[ 1.872179800] >>> Distancia
+[ 1.895075400] --- Distancia
+[ 1.950393700] >>> Riesgos
+[ 1.964187200] !!!! Brake activated !!!!
+[ 1.985830600] ............%
+[ 2.000648000] >>> Cabeza
+[ 2.016991500] --- CabezaBEEEEEEEEEEP 5
+[ 2.038015800] --- Riesgos
+[ 2.051808600] >>> Display
+[ 2.065632600] ............# Distance:  5
+[ 2.089764900] ......
+[ 2.100998300] >>> Riesgos
+[ 2.114822300] !!!! Brake activated !!!!
+[ 2.136465300] ............%BEEEEEEEEEEP 5
+[ 2.159025100] --- Riesgos
+[ 2.172818300] >>> Distancia
+[ 2.195713000] --- Distancia
+[ 2.210530200] >>> Volante
+[ 2.225806000] --- Volante......# Speed:  90
+
+[ 2.250584800] >>> Riesgos
+[ 2.264408300] !!!! Brake activated !!!!
+[ 2.286051900] ............%BEEEEEEEEEEP 5
+[ 2.308611600] --- Riesgos............#¡Cuidado, tienes la cabeza inclinada!
+
+Distancia peligrosa!!!
+
+[ 2.361316500] --- Display
+[ 2.400405200] >>> Cabeza
+[ 2.416718900] --- Cabeza
+[ 2.429999700] >>> Riesgos
+[ 2.443824400] !!!! Brake activated !!!!
+[ 2.465466800] ............%BEEEEEEEEEEP 5
+[ 2.488026800] --- Riesgos
+[ 2.501820000] >>> Distancia
+[ 2.524714000] --- Distancia
+[ 2.539530800] >>> Vo
+[ 2.550794700] >>> Riesgos
+[ 2.564619400] !!!! Brake activated !!!!
+[ 2.586262702] ............%
+[ 2.601079300] --- Modo
+[ 2.613367600] >>> ModoBEEEEEEEEEEP 5
+[ 2.633398800] --- Riesgoslante
+[ 2.651208300] --- Volante
+[ 2.700467500] >>> Riesgos
+[ 2.714260600] !!!! Brake activated !!!!
+[ 2.735903500] ............%BEEEEEEEEEEP 5
+[ 2.758463300] --- Riesgos
+[ 2.772256500] >>> Distancia
+[ 2.795151
+[ 2.800753400] >>> Cabeza
+[ 2.817096600] --- Cabeza800] --- Distancia
+[ 2.839593700] >>> Vo
+[ 2.850857900] >>> Riesgos
+[ 2.864682200] !!!! Brake activated !!!!
+[ 2.886325400] ............%BEEEEEEEEEEP 5
+[ 2.908884700] --- Riesgoslante
+[ 2.926694200] --- Volante
+[ 3.000477900] >>> Riesgos
+[ 3.014271400] !!!! Brake activated !!!!
+[ 3.035914000] ............%BEEEEEEEEEEP 5
+[ 3.058473400] --- Riesgos
+[ 3.072266900] >>> Distancia
+[ 3.095162400] --- Distancia
+[ 3.109979300] >>> Display
+[ 3.123803400] ............# Distance:  5
+[ 3.1
+[ 3.150977000] >>> Riesgos
+[ 3.164801000] !!!! Brake activated !!!!
+[ 3.186444300] ............
+[ 3.200749200] >>> Cabeza
+[ 3.217094900] --- Cabeza%BEEEEEEEEEEP 5
+[ 3.238631000] --- Riesgos
+[ 3.252424500] >>> Volante
+[ 3.267700200] --- Volante47935700] ............# Speed:  90
+[ 3.300545700] >>> Riesgos
+[ 3.314338500] !!!! Brake activated !!!!
+[ 3.335981900] ............%BEEEEEEEEEEP 5
+[ 3.358542100] --- Riesgos
+[ 3.372335300] >>> Distancia
+[ 3.395230700] --- Distancia
+............#¡Cuidado, tienes la cabeza inclinada!
+
+Distancia peligrosa!!!
+
+[
+[ 3.450495300] >>> Riesgos
+[ 3.464320000] !!!! Brake activated !!!!
+[ 3.485962900] ............%
+[ 3.501007900] --- Modo
+[ 3.513264700] >>> ModoBEEEEEEEEEEP 5
+[ 3.533295500] --- Riesgos
+[ 3.547089100] >>> Volante
+[ 3.562363600] --- Volante 3.449471700] --- Display
+[ 3.600405400] >>> Cabeza
+[ 3.616719900] --- Cabeza
+[ 3.630000700] >>> Riesgos
+[ 3.643824600] !!!! Brake activated !!!!
+[ 3.665468600] ............%BEEEEEEEEEEP 5
+[ 3.688027900] --- Riesgos
+[ 3.701821400] >>> Distancia
+[ 3.724717300] --- Distancia
+[ 3.750469800] >>> Riesgos
+[ 3.764263300] !!!! Brake activated !!!!
+[ 3.785905900] ............%BEEEEEEEEEEP 5
+[ 3.808465700] --- Riesgos
+[ 3.850384600] >>> Volante
+[ 3.865628900] --- Volante
+[ 3.900391000] >>> Riesgos
+[ 3.914183800] !!!! Brake activated !!!!
+[ 3.935827900] ............%BEEEEEEEEEEP 5
+[ 3.958387700] --- Riesgos
+[ 3.972180400] >>> Distancia
+[ 3.995075
+[ 4.000676400] >>> Cabeza
+[ 4.017020600] --- Cabeza600] --- Distancia
+[ 4.039517400] >>> Di
+[ 4.050781700] >>> Riesgos
+[ 4.064606000] !!!! Brake activated !!!!
+[ 4.086249200] ............%BEEEEEEEEEEP 5
+[ 4.108809200] --- Riesgossplay
+[ 4.125162400] ............# Distance:  5
+[ 4.149294300] ............# Speed:  90
+............#¡Cuidado, tienes la cabeza inclinada!
+
+Dist
+[ 4.200696500] >>> Riesgos
+[ 4.214520000] !!!! Brake activated !!!!
+[ 4.236164000] ............%BEEEEEEEEEEP 5
+[ 4.258723300] --- Riesgos
+[ 4.272516800] >>> Distancia
+[ 4.295411
+[ 4.301012500] --- Modo
+[ 4.313300800] >>> Modo900] --- Distancia
+[ 4.334805500] >>> Volante
+
+[ 4.350562500] >>> Riesgos
+[ 4.364385700] !!!! Brake activated !!!!
+[ 4.386029400] ............%
+[ 4.400846300] >>> Cabeza
+[ 4.417190800] --- CabezaBEEEEEEEEEEP 5
+[ 4.438214900] --- Riesgos[ 4.451505700] --- Volanteancia peligrosa!!!
+
+[ 4.475048200] --- Display
+[ 4.500467500] >>> Riesgos
+[ 4.514260600] !!!! Brake activated !!!!
+[ 4.535903500] ............%BEEEEEEEEEEP 5
+[ 4.558463400] --- Riesgos
+[ 4.572256700] >>> Distancia
+[ 4.595152400] --- Distancia
+[ 4.609969200] >>> Volante
+[ 4.625246100] --- Volante
+[ 4.650469600] >>> Riesgos
+[ 4.664262300] !!!! Brake activated !!!!
+[ 4.685905900] ............%BEEEEEEEEEEP 5
+[ 4.708466000] --- Riesgos
+[ 4.800405200] >>> Cabeza
+[ 4.816717900] --- Cabeza
+[ 4.829998500] >>> Riesgos
+[ 4.843822800] !!!! Brake activated !!!!
+[ 4.865466400] ............%BEEEEEEEEEEP 5
+[ 4.888026400] --- Riesgos
+[ 4.901819900] >>> Distancia
+[ 4.924714700] --- Distancia
+[ 4.939531600] >>> Vo
+[ 4.950795400] >>> Riesgos
+[ 4.964620100] !!!! Brake activated !!!!
+[ 4.986263000] ............%
+[ 5.001080100] --- Modo
+[ 5.013368000] >>> ModoBEEEEEEEEEEP 5
+[ 5.033399200] --- Riesgoslante
+[ 5.051208800] --- Volante
+[ 5.065002400] >>> Display
+[ 5.078825600] ............# Distance:  5
+[ 5.100498000] >>> Riesgos
+[ 5.114291100] !!!! Brake activated !!!!
+[ 5.135934500] ............%BEEEEEEEEEEP 5
+[ 5.158494700] --- Riesgos
+[ 5.172287500] >>> Distancia
+[ 5.195182
+[ 5.200783500] >>> Cabeza
+[ 5.217128500] --- Cabeza600] --- Distancia
+[ 5.241603600] ..
+[ 5.250788600] >>> Riesgos
+[ 5.264612500] !!!! Brake activated !!!!
+[ 5.286255800] ............%BEEEEEEEEEEP 5
+[ 5.308815500] --- Riesgos
+[ 5.322608300] >>> Volante
+[ 5.337884400] --- Volante..........# Speed:  90
+............#¡Cuidado, tienes la cabeza inclinada!
+
+Distancia peligros
+[ 5.401061800] >>> Riesgos
+[ 5.414886800] !!!! Brake activated !!!!
+[ 5.436529700] ............%BEEEEEEEEEEP 5
+[ 5.459089100] --- Riesgos
+[ 5.472882300] >>> Distancia
+[ 5.495776200] --- Distanciaa!!!
+
+[ 5.513153500] --- Display
+[ 5.550469800] >>> Riesgos
+[ 5.564263300] !!!! Brake activated !!!!
+[ 5.585905900] ............%
+[ 5.600723200] >>> Cabeza
+[ 5.617067800] --- CabezaBEEEEEEEEEEP 5
+[ 5.638092000] --- Riesgos
+[ 5.651885100] >>> Volante
+[ 5.667160800] --- Volante
+[ 5.701025700] --- Modo
+[ 5.713282500] >>> Modo
+[ 5.725570500] >>> Riesgos
+[ 5.739394500] !!!! Brake activated !!!!
+[ 5.761038300] ............%BEEEEEEEEEEP 5
+[ 5.783597700] --- Riesgos
+[ 5.797390400] >>> Distancia
+[ 5.820286000] --- Distancia
+[ 5.850469600] >>> Riesgos
+[ 5.864262700] !!!! Brake activated !!!!
+[ 5.885905600] ............%BEEEEEEEEEEP 5
+[ 5.908465700] --- Riesgos
+[ 5.950308800] >>> Volante
+[ 5.965744000] --- Volante
+[ 6.000416500] >>> Cabeza
+[ 6.016729200] --- Cabeza
+[ 6.030010400] >>> Riesgos
+[ 6.043833900] !!!! Brake activated !!!!
+[ 6.065477600] ............%BEEEEEEEEEEP 5
+[ 6.088037300] --- Riesgos
+[ 6.101830800] >>> Distancia
+[ 6.124726300] --- Distancia
+[ 6.139543400] >>> Di
+[ 6.150806900] >>> Riesgos
+[ 6.164631900] !!!! Brake activated !!!!
+[ 6.186274500] ............%BEEEEEEEEEEP 5
+[ 6.208834200] --- Riesgossplay
+[ 6.225187000] ............# Distance:  5
+[ 6.249318900] ............# Speed:  90
+............#¡Cuidado, tienes la cabeza inclinada!
+
+Dist
+[ 6.301053600] --- Modo
+[ 6.313311100] >>> Modo
+[ 6.325598800] >>> Riesgos
+[ 6.339423100] !!!! Brake activated !!!!
+[ 6.361066100] ............%BEEEEEEEEEEP 5
+[ 6.383625800] --- Riesgos
+[ 6.39
+[ 6.401003300] >>> Cabeza
+[ 6.417347500] --- Cabeza7418900] >>> Distancia
+[
+[ 6.450935900] >>> Riesgos
+[ 6.464759806] !!!! Brake activated !!!!
+[ 6.486402300] ............%BEEEEEEEEEEP 5
+[ 6.508962600] --- Riesgos 6.449942400] --- Distancia
+[ 6.536579600] >>> Volante
+[ 6.551857400] --- Volanteancia peligrosa!!!
+
+[ 6.575378000] --- Display
+[ 6.600479600] >>> Riesgos
+[ 6.614272600] !!!! Brake activated !!!!
+[ 6.635915800] ............%BEEEEEEEEEEP 5
+[ 6.658475400] --- Riesgos
+[ 6.672268100] >>> Distancia
+[ 6.695167400] --- Distancia
+[ 6.709984900] >>> Volante
+[ 6.725263400] --- Volante
+[ 6.750469800] >>> Riesgos
+[ 6.764263200] !!!! Brake activated !!!!
+[ 6.785906400] ............%
+[ 6.800724000] >>> Cabeza
+[ 6.817071600] --- CabezaBEEEEEEEEEEP 5
+[ 6.838095900] --- Riesgos
+[ 6.900949800] --- Modo
+[ 6.913207200] >>> Modo
+[ 6.925495100] >>> Riesgos
+[ 6.939319000] !!!! Brake activated !!!!
+[ 6.960962700] ............%BEEEEEEEEEEP 5
+[ 6.983522900] --- Riesgos
+[ 6.997316400] >>> Distancia
+[ 7.020214300] --- Distancia
+[ 7.035031700] >>> Volante
+[ 7.050598300] >>> Riesgos
+[ 7.064391400] !!!! Brake activated !!!!
+[ 7.086034300] ............%BEEEEEEEEEEP 5
+[ 7.108594300] --- Riesgos
+[ 7.122387300] --- Volante
+[ 7.136211700] >>> Display
+[ 7.150035700] ............# Distance:  5
+[ 7.174166900] ............# Speed:  90
+.........
+[ 7.200994302] >>> Cabeza
+[ 7.217342300] --- Cabeza
+[ 7.230623500] >>> Riesgos
+[ 7.244447000] !!!! Brake activated !!!!
+[ 7.266090200] ............%BEEEEEEEEEEP 5
+[ 7.288649800] --- Riesgos
+[ 7.302442800] >>> Distancia
+[ 7.325341300] --- Distancia...#¡Cuidado, tienes
+[ 7.350910700] >>> Riesgos
+[ 7.364733900] !!!! Brake activated !!!!
+[ 7.386377600] ............
+[ 7.401000200] --- Modo
+[ 7.413257200] >>> Modo%BEEEEEEEEEEP 5
+[ 7.433799500] --- Riesgos
+[ 7.447592300] >>> Volante
+[ 7.462870400] --- Volante la cabeza inclinada!
+
+Distancia peligrosa!!!
+
+
+[ 7.500728000] >>> Riesgos
+[ 7.514551100] !!!! Brake activated !!!!
+[ 7.536195200] ............%BEEEEEEEEEEP 5
+[ 7.558755300] --- Riesgos
+[ 7.572548100] >>> Distancia
+[ 7.595448
+[ 7.601049700] >>> Cabeza
+[ 7.617398800] --- Cabeza300] --- Distancia[ 7.639392800] --- Di
+[ 7.650647700] >>> Riesgos
+[ 7.664472300] !!!! Brake activated !!!!
+[ 7.686114800] ............%BEEEEEEEEEEP 5
+[ 7.708674800] --- Riesgos
+[ 7.722468200] >>> Volante
+[ 7.737745900] --- Volantesplay
+[ 7.800467300] >>> Riesgos
+[ 7.814260700] !!!! Brake activated !!!!
+[ 7.835903200] ............%BEEEEEEEEEEP 5
+[ 7.858462900] --- Riesgos
+[ 7.872256300] >>> Distancia
+[ 7.895155
+[ 7.901001100] --- Modo
+[ 7.913258200] >>> Modo900] --- Distancia
+[ 7.950381200] >>> Riesgos
+[ 7.964174600] !!!! Brake activated !!!!
+[ 7.985817500] ............%
+[ 8.000634300] >>> Cabeza
+[ 8.016981900] --- CabezaBEEEEEEEEEEP 5
+[ 8.038005200] --- Riesgos
+[ 8.051798800] >>> Volante
+[ 8.067076200] --- Volante
+[ 8.080868900] >>> Display
+[ 8.0946931
+[ 8.100837800] >>> Riesgos
+[ 8.114660900] !!!! Brake activated !!!!
+[ 8.136304500] ............%BEEEEEEEEEEP 5
+[ 8.158863800] --- Riesgos
+[ 8.172657100] >>> Distancia
+[ 8.195555200] --- Distancia00] ............# Distance:  5
+[ 8.228360100] ............# Speed:  90
+
+[ 8.250579400] >>> Riesgos
+[ 8.264402900] !!!! Brake activated !!!!
+[ 8.286045700] ............%BEEEEEEEEEEP 5
+[ 8.308605300] --- Riesgos............#¡Cuidado, tienes la cabeza inclinada!
+
+Distancia peligrosa!!!
+
+[ 8.361309900] --- Display
+[ 8.400415800] >>> Cabeza
+[ 8.416734000] --- Cabeza
+[ 8.430014600] >>> Riesgos
+[ 8.443839500] !!!! Brake activated !!!!
+[ 8.465482400] ............%BEEEEEEEEEEP 5
+[ 8.488042700] --- Riesgos
+[ 8.501835600] >>> Distancia
+[ 8.524733400] --- Distancia
+[ 8.539551000] >>> Vo
+[ 8.550814100] >>> Riesgos
+[ 8.564638700] !!!! Brake activated !!!!
+[ 8.586282300] ............%
+[ 8.601099900] --- Modo
+[ 8.613387100] >>> ModoBEEEEEEEEEEP 5
+[ 8.633417800] --- Riesgoslante
+[ 8.651229000] --- Volante
+[ 8.700467300] >>> Riesgos
+[ 8.714260400] !!!! Brake activated !!!!
+[ 8.735903300] ............%BEEEEEEEEEEP 5
+[ 8.758463200] --- Riesgos
+[ 8.772256300] >>> Distancia
+[ 8.795155
+[ 8.800756300] >>> Cabeza
+[ 8.817104400] --- Cabeza400] --- Distancia
+[ 8.839601700] >>> Vo
+[ 8.850865800] >>> Riesgos
+[ 8.864689300] !!!! Brake activated !!!!
+[ 8.886333300] ............%BEEEEEEEEEEP 5
+[ 8.908893400] --- Riesgoslante
+[ 8.926705600] --- Volante
+[ 9.000477900] >>> Riesgos
+[ 9.014271400] !!!! Brake activated !!!!
+[ 9.035914000] ............%BEEEEEEEEEEP 5
+[ 9.058473400] --- Riesgos
+[ 9.072266900] >>> Distancia
+[ 9.095166200] --- Distancia
+[ 9.109983600] >>> Volante
+[ 9.125262200] --- Volante
+[ 9.139055800] >>> Dis
+[ 9.150831500] >>> Riesgos
+[ 9.164655500] !!!! Brake activated !!!!
+[ 9.186298500] ............
+[ 9.200604100] >>> Cabeza
+[ 9.216952100] --- Cabeza%BEEEEEEEEEEP 5
+[ 9.238487800] --- Riesgosplay
+[ 9.254328500] ............# Distance:  5
+[ 9.278460800] ............# Speed:  90
+[ 9.300498100] >>> Riesgos
+[ 9.314291600] !!!! Brake activated !!!!
+[ 9.335934600] ............%BEEEEEEEEEEP 5
+[ 9.358494400] --- Riesgos
+[ 9.372287900] >>> Distancia
+[ 9.395186300] --- Distancia
+............#¡Cuidado, tienes la cabeza inclinada!
+
+Distancia peligrosa!!!
+
+[
+[ 9.450475200] >>> Riesgos
+[ 9.464275300] !!!! Brake activated !!!!
+[ 9.485919000] ............%
+[ 9.501000300] --- Modo
+[ 9.513257800] >>> ModoBEEEEEEEEEEP 5
+[ 9.533288200] --- Riesgos
+[ 9.547081700] >>> Volante
+[ 9.562358100] --- Volante 9.449427200] --- Display
+[ 9.600405200] >>> Cabeza
+[ 9.616723500] --- Cabeza
+[ 9.630005000] >>> Riesgos
+[ 9.643828900] !!!! Brake activated !!!!
+[ 9.665472200] ............%BEEEEEEEEEEP 5
+[ 9.688031900] --- Riesgos
+[ 9.701824700] >>> Distancia
+[ 9.724724400] --- Distancia
+[ 9.750469800] >>> Riesgos
+[ 9.764263300] !!!! Brake activated !!!!
+[ 9.785905900] ............%BEEEEEEEEEEP 5
+[ 9.808465900] --- Riesgos
+[ 9.822259000] >>> Volante
+[ 9.837537100] --- Volante
+[ 9.900391500] >>> Riesgos
+[ 9.914184700] !!!! Brake activated !!!!
+[ 9.935827700] ............%BEEEEEEEEEEP 5
+[ 9.958387500] --- Riesgos
+[ 9.972180600] >>> Distancia
+[ 9.995078
+[ 10.000679800] >>> Cabeza
+[ 10.017538700] --- Cabeza500] --- Distancia
+[ 10.040548100] >>>
+[ 10.050787400] >>> Riesgos
+[ 10.065124200] !!!! Brake activated !!!!
+[ 10.087278900] ............%BEEEEEEEEEEP 5
+[ 10.110350400] --- Riesgos Display
+[ 10.128751200] ............# Distance:  5
+[ 10.150767500] >>> Volante
+[ 10.166556700] --- Volante
+[ 10.183270400] ............# Spe
+[ 10.200647800] >>> Riesgos
+[ 10.214983800] !!!! Brake activated !!!!
+[ 10.237138900] ............%BEEEEEEEEEEP 5
+[ 10.260211200] --- Riesgos
+[ 10.274516100] >>> Distancia
+[ 10.297928100] --- Distanciaed:  90
+............#¡Cuidado, tienes la cabeza inclinada!
+
+Distancia 
+[ 10.350866400] >>> Riesgos
+[ 10.365201700] !!!! Brake activated !!!!
+[ 10.387357200] .........
+[ 10.401027100] --- Modo
+[ 10.413796000] >>> Modo
+[ 10.426595800] >>> Cabeza
+[ 10.443455500] --- Cabeza...%BEEEEEEEEEEP 5
+[ 10.467038900] --- Riesgospeligrosa!!!
+
+[ 10.487999600] --- Disp
+[ 10.500800000] >>> Riesgos
+[ 10.515136000] !!!! Brake activated !!!!
+[ 10.537290800] ............%BEEEEEEEEEEP 5
+[ 10.560362700] --- Riesgos
+[ 10.574667800] >>> Distancia
+[ 10.598079600] --- Distancia
+[ 10.613408900] >>> Volante
+[ 10.629198500] --- Volantelay
+[ 10.650469600] >>> Riesgos
+[ 10.664775200] !!!! Brake activated !!!!
+[ 10.686930300] ............%BEEEEEEEEEEP 5
+[ 10.710001800] --- Riesgos
+[ 10.800405200] >>> Cabeza
+[ 10.817233600] --- Cabeza
+[ 10.831026500] >>> Riesgos
+[ 10.845362500] !!!! Brake activated !!!!
+[ 10.867517900] ............%BEEEEEEEEEEP 5
+[ 10.890589400] --- Riesgos
+[ 10.904894200] >>> Distancia
+[ 10.928305700] --- Distancia
+[ 10.94363500
+[ 10.950802300] >>> Riesgos
+[ 10.965138500] !!!! Brake activated !!!!
+[ 10.987293600] ............%BEEEEEEEEEEP 5
+[ 11.010365900] --- Riesgos0] >>> Volante
+[ 11.033292400] --- Volante
+[ 11.047597700] >>> Display
+[ 11.061933500] ............# Distance:  5
+[ 11.086577600] ...........
+[ 11.100882700] >>> Riesgos
+[ 11.115218700] !!!! Brake activated !!!!
+[ 11.137374200] ............%BEEEEEEEEEEP 5
+[ 11.160446100] --- Riesgos
+[ 11.174751500] >>> Distancia
+[ 11
+[ 11.201034800] --- Modo
+[ 11.213804000] >>> Modo
+[ 11.226603700] >>> Cabeza
+[ 11.243465100] --- Cabeza
+[ 11.257258700] >>> Riesgos
+[ 11.271594400] !!!! Brake activated !!!!
+[ 11.293749500] ............%BEEEEEEEEEEP 5
+[ 11.316821400] --- Riesgos.198163000] --- Distancia
+[ 11.343926000] >>> Volante
+[ 11.359716400] --- Volante.# Speed:  90
+............#¡Cuidado, tienes la ca
+[ 11.400878900] >>> Riesgos
+[ 11.415214900] !!!! Brake activated !!!!
+[ 11.437370000] ............%BEEEEEEEEEEP 5
+[ 11.460441500] --- Riesgos
+[ 11.474746700] >>> Distancia
+[ 11.498156700] --- Distanciabeza inclinada!
+
+Distancia peligrosa!!!
+
+[ 11.533965400] --- Display
+[ 11.550467300] >>> Riesgos
+[ 11.564772200] !!!! Brake activated !!!!
+[ 11.586928000] ..........
+[ 11.600720800] >>> Cabeza
+[ 11.617581800] --- Cabeza..%BEEEEEEEEEEP 5
+[ 11.640653400] --- Riesgos
+[ 11.654958600] >>> Volante
+[ 11.670747800] --- Volante
+[ 11.700467300] >>> Riesgos
+[ 11.714772900] !!!! Brake activated !!!!
+[ 11.736927300] ............%BEEEEEEEEEEP 5
+[ 11.759999200] --- Riesgos
+[ 11.774304000] >>> Distancia
+[ 11.797715000] --- Distancia
+[ 11.850469600] >>> Riesgos
+[ 11.864774800] !!!! Brake activated !!!!
+[ 11.886930200] ..........
+[ 11.900935400] --- Modo
+[ 11.913704300] >>> Modo..%BEEEEEEEEEEP 5
+[ 11.935782800] --- Riesgos
+[ 11.950087700] >>> Volante
+[ 11.965923400] --- Volante
+[ 12.000416500] >>> Cabeza
+[ 12.017244900] --- Cabeza
+[ 12.031037700] >>> Riesgos
+[ 12.045374500] !!!! Brake activated !!!!
+[ 12.067529200] ............%BEEEEEEEEEEP 5
+[ 12.090601000] --- Riesgos
+[ 12.104906600] >>> Distancia
+[ 12.128316300] --- Distancia
+[ 12.14364560
+[ 12.150813500] >>> Riesgos
+[ 12.165149200] !!!! Brake activated !!!!
+[ 12.187305000] ............%BEEEEEEEEEEP 5
+[ 12.210377200] --- Riesgos0] >>> Display
+[ 12.231849900] ............# Distan
+[ 12.250794100] >>> Volante
+[ 12.266584100] --- Volantece:  5
+[ 12.286589100] ...........
+[ 12.300893900] >>> Riesgos
+[ 12.315230300] !!!! Brake activated !!!!
+[ 12.337385400] ............%BEEEEEEEEEEP 5
+[ 12.360456900] --- Riesgos
+[ 12.374762100] >>> Distancia
+[ 12
+[ 12.400701800] >>> Cabeza
+[ 12.417562400] --- Cabeza.398173100] --- Distancia.# Speed:  90
+[ 12.450811000] >>> Riesgos
+[ 12.465147000] !!!! Brake activated !!!!
+[ 12.487302400] ............%BEEEEEEEEEEP 5
+[ 12.510373800] --- Riesgos
+............#¡Cuidado, tienes la cabeza inclinada!
+
+Distancia peligrosa!!!
+
+[ 12.565176600] --- Display
+[ 12.601033500] --- Modo
+[ 12.613803100] >>> Modo
+[ 12.626602800] >>> Riesgos
+[ 12.640938700] !!!! Brake activated !!!!
+[ 12.663094100] ............%BEEEEEEEEEEP 5
+[ 12.686165900] --- Riesgos
+[ 12.700470800] >>> Distancia
+[ 12.723882700] --- Distancia
+[ 12.739212100] >>> Vo
+[ 12.750988300] >>> Riesgos
+[ 12.765323600] !!!! Brake activated !!!!
+[ 12.787479400] .........
+[ 12.800761000] >>> Cabeza
+[ 12.817619500] --- Cabeza...%BEEEEEEEEEEP 5
+[ 12.841203200] --- Riesgoslante
+[ 12.859526200] --- Volante
+[ 12.900467500] >>> Riesgos
+[ 12.914772400] !!!! Brake activated !!!!
+[ 12.936927900] ............%BEEEEEEEEEEP 5
+[ 12.960000200] --- Riesgos
+[ 12.974305600] >>> Distancia
+[ 12.997715100] --- Distancia
+[ 13.013044600] >>> Volante
+[ 13.028833100] --- Volante
+[ 13.043138300
+[ 13.050818300] >>> Riesgos
+[ 13.065154400] !!!! Brake activated !!!!
+[ 13.087309900] ............%BEEEEEEEEEEP 5
+[ 13.110382200] --- Riesgos] >>> Display
+[ 13.131343300] ............# Distance:  5
+[ 13.155987500] ............# Speed:  90
+............#¡Cuidado, tienes la cabeza in
+[ 13.201051700] --- Modo
+[ 13.213820300] >>> Modo
+[ 13.226621200] >>> Cabeza
+[ 13.243481900] --- Cabeza
+[ 13.257274800] >>> Riesgos
+[ 13.271610900] !!!! Brake activated !!!!
+[ 13.293766800] ............%BEEEEEEEEEEP 5
+[ 13.316838800] --- Riesgos
+[ 13.331144300] >>> Distancia
+[ 13.352196900] >>> Riesgos
+[ 13.366501900] !!!! Brake activated !!!!
+[ 13.388657800] ............%BEEEEEEEEEEP 5
+[ 13.411729700] --- Riesgos
+[ 13.428008800] --- Distancia
+[ 13.443338000] >>> Volante
+[ 13.459127100] --- Volanteclinada!
+
+Distancia peligrosa!!!
+
+[ 13.490327800] --- 
+[ 13.501079900] >>> Riesgos
+[ 13.515415700] !!!! Brake activated !!!!
+[ 13.537571300] ............%BEEEEEEEEEEP 5
+[ 13.560642600] --- Riesgos
+[ 13.574948200] >>> Distancia
+[ 13
+[ 13.600887900] >>> Cabeza
+[ 13.617749000] --- Cabeza.598359300] --- DistanciaDisplay
+[ 13.650467000] >>> Riesgos
+[ 13.664771900] !!!! Brake activated !!!!
+[ 13.686927800] ............%BEEEEEEEEEEP 5
+[ 13.709999300] --- Riesgos
+[ 13.724304700] >>> Volante
+[ 13.740094600] --- Volante
+[ 13.800949600] --- Modo
+[ 13.813718500] >>> Modo
+[ 13.826518700] >>> Riesgos
+[ 13.840854800] !!!! Brake activated !!!!
+[ 13.863009500] ............%BEEEEEEEEEEP 5
+[ 13.886081400] --- Riesgos
+[ 13.900386600] >>> Distancia
+[ 13.923798200] --- Distancia
+[ 13.950393700] >>> Riesgos
+[ 13.964699100] !!!! Brake activated !!!!
+[ 13.986853900] ..........
+[ 14.000647200] >>> Cabeza
+[ 14.017505700] --- Cabeza..%BEEEEEEEEEEP 5
+[ 14.040577600] --- Riesgos
+[ 14.054882500] >>> Volante
+[ 14.070672700] --- Volante
+[ 14.084978100] >>> Display
+[
+[ 14.100475100] >>> Riesgos
+[ 14.114780400] !!!! Brake activated !!!!
+[ 14.136935500] ............%BEEEEEEEEEEP 5
+[ 14.160007100] --- Riesgos
+[ 14.174312200] >>> Distancia
+[ 14.197723300] --- Distancia 14.099313500] ............# Distance:  5
+[ 14.236672100] ...........
+[ 14.250977500] >>> Riesgos
+[ 14.265312900] !!!! Brake activated !!!!
+[ 14.287468400] .........
+[ 14.301002200] --- Modo
+[ 14.313771800] >>> Modo...%BEEEEEEEEEEP 5
+[ 14.336361500] --- Riesgos
+[ 14.350666400] >>> Volante
+[ 14.366455700] --- Volante.# Speed:  90
+............#¡Cuidado,
+[ 14.400962600] >>> Cabeza
+[ 14.417822500] --- Cabeza
+[ 14.431616100] >>> Riesgos
+[ 14.445951100] !!!! Brake activated !!!!
+[ 14.468107000] ............%BEEEEEEEEEEP 5
+[ 14.491179200] --- Riesgos
+[ 14.505484000] >>> Distancia
+[ 14.528893400] --- Distancia tienes la ca
+[ 14.550879000] >>> Riesgos
+[ 14.565214000] !!!! Brake activated !!!!
+[ 14.587370200] ............%BEEEEEEEEEEP 5
+[ 14.610442100] --- Riesgosbeza inclinada!
+
+Distancia peligrosa!!!
+
+[ 14.645227700] --- Display
+[ 14.700478300] >>> Riesgos
+[ 14.714783200] !!!! Brake activated !!!!
+[ 14.736938700] ............%BEEEEEEEEEEP 5
+[ 14.760011000] --- Riesgos
+[ 14.774315600] >>> Distancia
+[ 14.
+[ 14.801027600] --- Modo
+[ 14.813797200] >>> Modo
+[ 14.826596300] >>> Cabeza
+[ 14.843456000] --- Cabeza
+[ 14.857249300] >>> Riesgos
+[ 14.871585400] !!!! Brake activated !!!!
+[ 14.893740900] ............%BEEEEEEEEEEP 5
+[ 14.916812800] --- Riesgos797726700] --- Distancia
+[ 14.943406000] >>> Volante
+[ 14.959195300] --- Volante
+[ 15.000476800] >>> Riesgos
+[ 15.014782400] !!!! Brake activated !!!!
+[ 15.036937500] ............%BEEEEEEEEEEP 5
+[ 15.060009500] --- Riesgos
+[ 15.074314900] >>> Distancia
+[ 15.097725800] --- Distancia
+[ 15.113054400] >>> Volante
+[ 15.128843900] --- Volante
+[ 15.143148900
+[ 15.150828800] >>> Riesgos
+[ 15.165164800] !!!! Brake activated !!!!
+[ 15.187320600] .........
+[ 15.200602000] >>> Cabeza
+[ 15.217462600] --- Cabeza...%BEEEEEEEEEEP 5
+[ 15.241046800] --- Riesgos] >>> Display
+[ 15.262008000] ............# Distance:  5
+[ 15.286652300] ...........
+[ 15.300957300] >>> Riesgos
+[ 15.315293400] !!!! Brake activated !!!!
+[ 15.337448900] ............%BEEEEEEEEEEP 5
+[ 15.360520400] --- Riesgos
+[ 15.374825600] >>> Distancia
+[ 15.398236600] --- Distancia
+[ 15.413565900] >>> Volante
+[ 15.429355500] --- Volante.# Speed:  90
+[ 15.450487500] >>> Riesgos
+[ 15.464793100] !!!! Brake activated !!!!
+[ 15.486948200] ..........
+[ 15.501002100] --- Modo
+[ 15.513771700] >>> Modo..%BEEEEEEEEEEP 5
+[ 15.535849900] --- Riesgos
+.......
+Interrupt!
+ Stopped at time 157882880 (1.128e+01 s)
+tsim> 
