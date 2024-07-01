@@ -1,3 +1,3 @@
 # Str 
-Programa con el objetivo de detectar datos que indiquen distracciones en la conducción de vehículos
-y utilizarlos para evitar accidentes.
+Sistema de tiempo real que captura y procesa datos que pueden ser indicativos de distracciones
+durante la conducción de vehículos y actúa en consecuencia para evitar accidentes.
